@@ -27,7 +27,7 @@ def run_work():
                     show_employee_info(emp)
         elif choice == 3:           # select employees by salary range
             emp_by_salary = find_employees_by_salary_range(employees)
-            if not emp_by_position:
+            if not emp_by_salary:
                 no_employee_error()
             else:
                 for emp in emp_by_salary:
